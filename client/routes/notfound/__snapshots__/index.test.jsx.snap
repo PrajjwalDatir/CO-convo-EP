@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should match snapshot 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <NotFound>
+      <div
+        className="overflow-x-hidden"
+      >
+        <div
+          className="container flex flex-col items-center justify-center mx-auto h-screen"
+        >
+          <img
+            alt="404"
+            className="mb-12"
+            src="test-file-stub"
+            style={
+              Object {
+                "width": 500,
+              }
+            }
+          />
+          <FancyLink
+            className="font-bold text-xl"
+            to="/"
+          >
+            <Link
+              className="group relative"
+              to="/"
+            >
+              <LinkAnchor
+                className="group relative"
+                href="/"
+                navigate={[Function]}
+              >
+                <a
+                  className="group relative"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="relative text-blue-800 group-hover:text-blue-900 z-50 font-bold text-xl"
+                  >
+                    Go to homepage
+                  </span>
+                  <div
+                    className="absolute w-full bottom-0 bg-blue-200 group-hover:bg-blue-300 h-1"
+                  />
+                </a>
+              </LinkAnchor>
+            </Link>
+          </FancyLink>
+        </div>
+      </div>
+    </NotFound>
+  </Router>
+</StaticRouter>
+`;

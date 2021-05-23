@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FancyLink /> should match snapshot 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <FancyLink
+      className=""
+      to="/"
+    >
+      <Link
+        className="group relative"
+        to="/"
+      >
+        <LinkAnchor
+          className="group relative"
+          href="/"
+          navigate={[Function]}
+        >
+          <a
+            className="group relative"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="relative text-blue-800 group-hover:text-blue-900 z-50 "
+            />
+            <div
+              className="absolute w-full bottom-0 bg-blue-200 group-hover:bg-blue-300 h-1"
+            />
+          </a>
+        </LinkAnchor>
+      </Link>
+    </FancyLink>
+  </Router>
+</StaticRouter>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should match snapshot 1`] = `
+<ForwardRef
+  className=""
+  onChange={[Function]}
+  value=""
+>
+  <input
+    className="rounded-lg bg-gray-200 px-3 py-2 border border-solid border-transparent outline-none hover:border-gray-400 focus:bg-white focus:border-gray-400 "
+    onChange={[Function]}
+    value=""
+  />
+</ForwardRef>
+`;

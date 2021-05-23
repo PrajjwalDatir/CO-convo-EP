@@ -1,0 +1,24 @@
+.spinner-parent {
+  perspective: 1000px;
+}
+
+.spinner {
+  animation-duration: 0.5s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+
+  50% {
+    transform: rotateY(180deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should match snapshot 1`] = `
+<Card
+  className=""
+>
+  <div
+    className="rounded bg-white p-10 shadow-lg "
+  />
+</Card>
+`;

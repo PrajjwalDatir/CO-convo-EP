@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should match snapshot 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <Link
+      to="/"
+    >
+      <Link
+        className="text-blue-600 underline hover:text-blue-700"
+        to="/"
+      >
+        <LinkAnchor
+          className="text-blue-600 underline hover:text-blue-700"
+          href="/"
+          navigate={[Function]}
+        >
+          <a
+            className="text-blue-600 underline hover:text-blue-700"
+            href="/"
+            onClick={[Function]}
+          />
+        </LinkAnchor>
+      </Link>
+    </Link>
+  </Router>
+</StaticRouter>
+`;

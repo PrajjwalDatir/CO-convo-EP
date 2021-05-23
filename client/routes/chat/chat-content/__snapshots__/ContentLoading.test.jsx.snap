@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentLoading /> should match snapshot 1`] = `
+<ContentLoading>
+  <ContentContainer
+    direction="flex-row"
+  >
+    <div
+      className="my-8 flex flex-grow bg-white rounded-lg shadow-xl flex-row"
+    >
+      <div
+        className="flex flex-grow justify-center items-center"
+      >
+        <h1
+          className="text-2xl text-gray-700"
+        >
+          Loading...
+        </h1>
+        <div
+          className="w-48 h-48 flex justify-center items-center spinner-parent"
+        >
+          <div
+            className="rounded-full w-20 h-20 bg-blue-200 spinner"
+          />
+        </div>
+      </div>
+    </div>
+  </ContentContainer>
+</ContentLoading>
+`;

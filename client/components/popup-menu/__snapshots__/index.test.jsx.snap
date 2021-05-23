@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopupMenu /> should match snapshot 1`] = `
+<PopupMenu
+  bgClassName=""
+  isOpen={false}
+  onClose={[Function]}
+>
+  <div
+    className="invisible"
+  >
+    <button
+      aria-label="Close menu"
+      className="fixed inset-0 w-full h-full cursor-default z-40 "
+      onClick={[Function]}
+      tabIndex="-1"
+      type="button"
+    />
+    <div
+      className="relative z-50"
+    />
+  </div>
+</PopupMenu>
+`;

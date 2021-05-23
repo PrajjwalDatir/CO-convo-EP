@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatMessage /> should match snapshot 1`] = `
+<Memo(ChatMessage)
+  message={
+    Object {
+      "message": "hi",
+      "sent": "2019-11-23T21:00:39.290Z",
+      "user": Object {
+        "username": "user",
+      },
+    }
+  }
+>
+  <div
+    className="my-3"
+  >
+    <div>
+      <span
+        className="font-bold mr-1"
+      >
+        user
+      </span>
+      <span
+        className="text-xs text-gray-700"
+      >
+        <time
+          dateTime="2019-11-23T21:00:39.290Z"
+        >
+          24 Nov 2019, 2:30 am
+        </time>
+      </span>
+    </div>
+    <div
+      className="whitespace-pre-line"
+    >
+      hi
+    </div>
+  </div>
+</Memo(ChatMessage)>
+`;

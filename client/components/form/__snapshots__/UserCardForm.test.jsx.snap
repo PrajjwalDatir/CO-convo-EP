@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCardForm /> should match snapshot 1`] = `
+<UserCardForm
+  alt=""
+  buttonText=""
+  header=""
+  image=""
+  onSubmit={[Function]}
+  underButton={null}
+>
+  <Card
+    className="overflow-x-hidden border-solid border-blue-500 border-t-4"
+    tabIndex="-1"
+  >
+    <div
+      className="rounded bg-white p-10 shadow-lg overflow-x-hidden border-solid border-blue-500 border-t-4"
+      tabIndex="-1"
+    >
+      <div
+        className="flex w-full"
+      >
+        <div
+          style={
+            Object {
+              "width": 300,
+            }
+          }
+        >
+          <h1
+            className="text-4xl font-light mb-4"
+          />
+          <form
+            onSubmit={[Function]}
+          >
+            <Button
+              className="w-full bg-blue-700 hover:bg-blue-800 text-gray-100"
+              overrideColors={true}
+              type="submit"
+            >
+              <button
+                className="
+        
+        rounded focus:shadow-outline cursor-pointer px-4 py-2 shadow hover:shadow-md w-full bg-blue-700 hover:bg-blue-800 text-gray-100
+      "
+                type="submit"
+              />
+            </Button>
+          </form>
+          <div
+            className="mt-3"
+          />
+        </div>
+        <div
+          className="ml-12 -mr-20"
+        >
+          <img
+            alt=""
+            className="w-64"
+            src=""
+          />
+        </div>
+      </div>
+    </div>
+  </Card>
+</UserCardForm>
+`;

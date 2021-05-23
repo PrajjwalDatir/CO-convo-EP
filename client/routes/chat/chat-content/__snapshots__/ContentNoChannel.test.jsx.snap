@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentNoChannel /> should match snapshot 1`] = `
+<ContentNoChannel>
+  <ContentContainer
+    direction="flex-row"
+  >
+    <div
+      className="my-8 flex flex-grow bg-white rounded-lg shadow-xl flex-row"
+    >
+      <div
+        className="relative flex flex-grow items-center overflow-hidden"
+      >
+        <img
+          alt="Woman looking at phone with chat message icon"
+          className="absolute opacity-25 select-none right-0"
+          src="test-file-stub"
+        />
+        <div
+          className="mx-12 mb-8 z-10"
+        >
+          <h1
+            className="text-5xl whitespace-normal leading-tight font-bold"
+            style={
+              Object {
+                "fontFamily": "Raleway, sans-serif",
+              }
+            }
+          >
+            No channel selected
+          </h1>
+          <p
+            className="text-gray-700 text-xl mt-4"
+          >
+            To start chatting, join or create a channel from the sidebar
+          </p>
+        </div>
+      </div>
+    </div>
+  </ContentContainer>
+</ContentNoChannel>
+`;

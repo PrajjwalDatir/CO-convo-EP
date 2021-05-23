@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register /> should match snapshot 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <Register>
+      <DottedBackground
+        className=""
+        style={Object {}}
+      >
+        <div
+          className="h-screen flex flex-col justify-center items-center "
+          style={
+            Object {
+              "backgroundImage": "url(test-file-stub)",
+            }
+          }
+        >
+          <FormContext
+            clearError={[Function]}
+            errors={Object {}}
+            formState={null}
+            getValues={[Function]}
+            handleSubmit={[Function]}
+            register={[Function]}
+            reset={[Function]}
+            setError={[Function]}
+            setValue={[Function]}
+            triggerValidation={[Function]}
+            unregister={[Function]}
+            watch={[Function]}
+          >
+            <LoginCardForm
+              buttonText="Register"
+              header="Create an account"
+              image="test-file-stub"
+              onSubmit={[Function]}
+              underButton={
+                <FancyLink
+                  className=""
+                  to="/login"
+                >
+                  Already registered?
+                </FancyLink>
+              }
+            >
+              <Card
+                className="overflow-x-hidden"
+              >
+                <div
+                  className="rounded bg-white p-10 shadow-lg overflow-x-hidden"
+                >
+                  <div
+                    className="flex w-full"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "width": 300,
+                        }
+                      }
+                    >
+                      <h1
+                        className="text-4xl font-light mb-4"
+                      >
+                        Create an account
+                      </h1>
+                      <form
+                        onSubmit={[Function]}
+                      >
+                        <LoginCardFormField
+                          label="Email"
+                          name="email"
+                          register={[Function]}
+                          type="email"
+                        >
+                          <div>
+                            <label
+                              htmlFor="email-field"
+                            >
+                              <div
+                                className="flex"
+                              >
+                                <div
+                                  className="mb-1 uppercase font-bold tracking-wide text-xs text-gray-700"
+                                >
+                                  Email
+                                </div>
+                                <div
+                                  className="text-xs text-red-700 ml-auto"
+                                />
+                              </div>
+                              <ForwardRef
+                                className="w-full mb-4"
+                                id="email-field"
+                                name="email"
+                                type="email"
+                              >
+                                <input
+                                  className="rounded-lg bg-gray-200 px-3 py-2 border border-solid border-transparent outline-none hover:border-gray-400 focus:bg-white focus:border-gray-400 w-full mb-4"
+                                  id="email-field"
+                                  name="email"
+                                  type="email"
+                                />
+                              </ForwardRef>
+                            </label>
+                          </div>
+                        </LoginCardFormField>
+                        <LoginCardFormField
+                          label="Username"
+                          name="username"
+                          register={[Function]}
+                          type="text"
+                        >
+                          <div>
+                            <label
+                              htmlFor="username-field"
+                            >
+                              <div
+                                className="flex"
+                              >
+                                <div
+                                  className="mb-1 uppercase font-bold tracking-wide text-xs text-gray-700"
+                                >
+                                  Username
+                                </div>
+                                <div
+                                  className="text-xs text-red-700 ml-auto"
+                                />
+                              </div>
+                              <ForwardRef
+                                className="w-full mb-4"
+                                id="username-field"
+                                name="username"
+                                type="text"
+                              >
+                                <input
+                                  className="rounded-lg bg-gray-200 px-3 py-2 border border-solid border-transparent outline-none hover:border-gray-400 focus:bg-white focus:border-gray-400 w-full mb-4"
+                                  id="username-field"
+                                  name="username"
+                                  type="text"
+                                />
+                              </ForwardRef>
+                            </label>
+                          </div>
+                        </LoginCardFormField>
+                        <LoginCardFormField
+                          label="Password"
+                          name="password"
+                          register={[Function]}
+                          type="password"
+                        >
+                          <div>
+                            <label
+                              htmlFor="password-field"
+                            >
+                              <div
+                                className="flex"
+                              >
+                                <div
+                                  className="mb-1 uppercase font-bold tracking-wide text-xs text-gray-700"
+                                >
+                                  Password
+                                </div>
+                                <div
+                                  className="text-xs text-red-700 ml-auto"
+                                />
+                              </div>
+                              <ForwardRef
+                                className="w-full mb-4"
+                                id="password-field"
+                                name="password"
+                                type="password"
+                              >
+                                <input
+                                  className="rounded-lg bg-gray-200 px-3 py-2 border border-solid border-transparent outline-none hover:border-gray-400 focus:bg-white focus:border-gray-400 w-full mb-4"
+                                  id="password-field"
+                                  name="password"
+                                  type="password"
+                                />
+                              </ForwardRef>
+                            </label>
+                          </div>
+                        </LoginCardFormField>
+                        <Button
+                          className="w-full bg-blue-700 hover:bg-blue-800"
+                          type="submit"
+                        >
+                          <button
+                            className="px-4 py-2 bg-gray-700 hover:bg-gray-800 text-gray-100 rounded shadow hover:shadow-md focus:shadow-outline cursor-pointer w-full bg-blue-700 hover:bg-blue-800"
+                            type="submit"
+                          >
+                            Register
+                          </button>
+                        </Button>
+                      </form>
+                      <div
+                        className="mt-3"
+                      >
+                        <FancyLink
+                          className=""
+                          to="/login"
+                        >
+                          <Link
+                            className="group relative"
+                            to="/login"
+                          >
+                            <LinkAnchor
+                              className="group relative"
+                              href="/login"
+                              navigate={[Function]}
+                            >
+                              <a
+                                className="group relative"
+                                href="/login"
+                                onClick={[Function]}
+                              >
+                                <span
+                                  className="relative text-blue-800 group-hover:text-blue-900 z-50 "
+                                >
+                                  Already registered?
+                                </span>
+                                <div
+                                  className="absolute w-full bottom-0 bg-blue-200 group-hover:bg-blue-300 h-1"
+                                />
+                              </a>
+                            </LinkAnchor>
+                          </Link>
+                        </FancyLink>
+                      </div>
+                    </div>
+                    <div
+                      className="ml-12 -mr-20"
+                    >
+                      <img
+                        alt=""
+                        className="w-64"
+                        src="test-file-stub"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </LoginCardForm>
+          </FormContext>
+        </div>
+      </DottedBackground>
+    </Register>
+  </Router>
+</StaticRouter>
+`;

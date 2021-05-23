@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should match snapshot 1`] = `
+<Modal
+  bgClassName="bg-gray-900 opacity-25"
+  isOpen={false}
+  onClose={[Function]}
+>
+  <PopupMenu
+    bgClassName="bg-gray-900 opacity-25"
+    isOpen={false}
+    onClose={[Function]}
+  >
+    <div
+      className="invisible"
+    >
+      <button
+        aria-label="Close menu"
+        className="fixed inset-0 w-full h-full cursor-default z-40 bg-gray-900 opacity-25"
+        onClick={[Function]}
+        tabIndex="-1"
+        type="button"
+      />
+      <div
+        className="relative z-50"
+      >
+        <div
+          className="fixed w-screen h-screen inset-0 pointer-events-none"
+        >
+          <div
+            className="flex w-screen h-screen items-center justify-center"
+          >
+            <div
+              className="pointer-events-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </PopupMenu>
+</Modal>
+`;

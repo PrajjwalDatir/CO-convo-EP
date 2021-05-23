@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat /> should match snapshot 1`] = `
+<Chat>
+  <div
+    className="h-screen bg-gray-100"
+  >
+    <div
+      className="container mx-auto"
+    >
+      <div
+        className="flex"
+      >
+        <div
+          className="w-1/6 mt-10"
+        >
+          <div
+            className="flex items-center"
+          >
+            <User
+              className="fill-current text-gray-600"
+            >
+              <svg
+                className="fill-current text-gray-600"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z"
+                />
+              </svg>
+            </User>
+            <span
+              className="ml-4 font-bold text-lg"
+            >
+              User
+            </span>
+          </div>
+          <div
+            className="mt-10 text-gray-600 font-bold"
+          >
+            <div>
+              Foo
+            </div>
+            <div>
+              Bar
+            </div>
+          </div>
+          <div
+            className="mt-10 flex items-center"
+          >
+            <PlusIcon
+              className="fill-current text-gray-600 mr-4"
+            >
+              <svg
+                className="fill-current text-gray-600 mr-4"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path
+                  d="M17 11a1 1 0 0 1 0 2h-4v4a1 1 0 0 1-2 0v-4H7a1 1 0 0 1 0-2h4V7a1 1 0 0 1 2 0v4h4z"
+                />
+              </svg>
+            </PlusIcon>
+            New Channel
+          </div>
+        </div>
+        <div
+          className="h-screen flex flex-col flex-grow"
+        >
+          <div
+            className="my-8 flex flex-col flex-grow bg-white rounded-lg shadow-lg"
+          >
+            <div
+              className="flex-grow pt-8 pb-16 px-8 overflow-y-scroll"
+            >
+              <div
+                className="relative"
+              >
+                <div
+                  className="absolute pb-8"
+                >
+                  <div
+                    key="1"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="2"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="3"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="4"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="5"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="6"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="7"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="8"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="9"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="10"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="11"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="12"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="13"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="14"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="15"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="16"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="17"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="18"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="19"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="20"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="21"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="22"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="23"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="24"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="25"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="26"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="27"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="28"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="29"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="30"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="31"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="32"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="33"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="34"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="35"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="36"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="37"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="38"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="39"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="40"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="41"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="42"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="43"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="44"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="45"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="46"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="47"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="48"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="49"
+                  >
+                    chat message
+                  </div>
+                  <div
+                    key="50"
+                  >
+                    chat message
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div
+              className="m-8"
+            >
+              <form
+                onSubmit={[Function]}
+              >
+                <ForwardRef
+                  className="focus:bg-gray-200 w-full"
+                  onChange={[Function]}
+                  placeholder="Send a message"
+                  value=""
+                >
+                  <input
+                    className="rounded-lg bg-gray-200 px-3 py-2 border border-solid border-transparent hover:border-gray-400 focus:bg-white focus:border-gray-400 focus:bg-gray-200 w-full"
+                    onChange={[Function]}
+                    placeholder="Send a message"
+                    value=""
+                  />
+                </ForwardRef>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          className="w-1/6 mt-10"
+        >
+          online users
+        </div>
+      </div>
+    </div>
+  </div>
+</Chat>
+`;

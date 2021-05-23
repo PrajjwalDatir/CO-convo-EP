@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentContainer /> should match snapshot 1`] = `
+<ContentContainer
+  direction="flex-row"
+>
+  <div
+    className="my-8 flex flex-grow bg-white rounded-lg shadow-xl flex-row"
+  />
+</ContentContainer>
+`;

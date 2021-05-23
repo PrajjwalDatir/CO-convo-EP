@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should match snapshot 1`] = `
+<StaticRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    staticContext={Object {}}
+  >
+    <Home>
+      <DottedBackground
+        className="overflow-x-hidden"
+        style={Object {}}
+      >
+        <div
+          className="h-screen flex flex-col justify-center items-center overflow-x-hidden"
+          style={
+            Object {
+              "backgroundImage": "url(test-file-stub)",
+            }
+          }
+        >
+          <div
+            className="flex mx-auto"
+          >
+            <div
+              className="mt-16 mx-24"
+            >
+              <h1
+                className="font-bold text-5xl mb-4"
+                style={
+                  Object {
+                    "fontFamily": "Raleway",
+                  }
+                }
+              >
+                It's time to ditch Discord.
+              </h1>
+              <p
+                className="text-gray-700 text-xl"
+              >
+                Yeah, uhh, no. Discord is twenty times better than this buggy web app.
+              </p>
+              <div
+                className="mt-4 whitespace-no-wrap"
+              >
+                <HomeActionButtons>
+                  <Link
+                    to="/register"
+                  >
+                    <LinkAnchor
+                      href="/register"
+                      navigate={[Function]}
+                    >
+                      <a
+                        href="/register"
+                        onClick={[Function]}
+                      >
+                        <Button
+                          className="mr-8 w-64"
+                          type="button"
+                        >
+                          <button
+                            className="px-4 py-2 bg-gray-700 hover:bg-gray-800 text-gray-100 rounded shadow hover:shadow-md focus:shadow-outline cursor-pointer mr-8 w-64"
+                            type="button"
+                          >
+                            Sign Up Anyways
+                          </button>
+                        </Button>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                  <Link
+                    to="/login"
+                  >
+                    <LinkAnchor
+                      href="/login"
+                      navigate={[Function]}
+                    >
+                      <a
+                        href="/login"
+                        onClick={[Function]}
+                      >
+                        <Button
+                          className="bg-blue-700 hover:bg-blue-800 w-64"
+                          type="button"
+                        >
+                          <button
+                            className="px-4 py-2 bg-gray-700 hover:bg-gray-800 text-gray-100 rounded shadow hover:shadow-md focus:shadow-outline cursor-pointer bg-blue-700 hover:bg-blue-800 w-64"
+                            type="button"
+                          >
+                            Log in
+                          </button>
+                        </Button>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </HomeActionButtons>
+              </div>
+            </div>
+            <img
+              alt=""
+              src="test-file-stub"
+              style={
+                Object {
+                  "width": 600,
+                }
+              }
+            />
+          </div>
+        </div>
+      </DottedBackground>
+    </Home>
+  </Router>
+</StaticRouter>
+`;
